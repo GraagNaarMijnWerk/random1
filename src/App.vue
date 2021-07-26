@@ -6,6 +6,7 @@
 </template>
 
 <script>
+// hallo ff git testen
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
