@@ -1,18 +1,26 @@
 <template>
   <div id="app">
+    <!-- hier komt de grid van de main page. en de tags van de components.
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    -->
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HeaderIntro/>
+    <StamboomLijst/>
   </div>
 </template>
 
 <script>
-// hallo ff git testen
 import HelloWorld from './components/HelloWorld.vue'
+import HeaderIntro from './components/HeaderIntro.vue'
+import StamboomLijst from './components/StamboomLijst.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    HeaderIntro,
+    StamboomLijst
   }
 }
 </script>
