@@ -7,6 +7,7 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HeaderIntro/>
     <StamboomLijst/>
+    <Naschrift/>
   </div>
 </template>
 
@@ -14,13 +15,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import HeaderIntro from './components/HeaderIntro.vue'
 import StamboomLijst from './components/StamboomLijst.vue'
+import Naschrift from './components/Naschrift.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     HeaderIntro,
-    StamboomLijst
+    StamboomLijst,
+    Naschrift
   }
 }
 </script>
