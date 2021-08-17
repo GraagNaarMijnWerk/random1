@@ -5,25 +5,35 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     -->
     <img alt="Vue logo" src="./assets/logo.png">
-    <HeaderIntro/>
-    <StamboomLijst/>
-    <Naschrift/>
+    <MainHeader/>
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col sm="8" offset="2">    
+          <StamboomLijst/>
+          <Naschrift/> 
+        </b-col>
+      </b-row>
+    </b-container>  
+    <TestComponent/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import HeaderIntro from './components/HeaderIntro.vue'
+import MainHeader from './components/MainHeader.vue'
 import StamboomLijst from './components/StamboomLijst.vue'
 import Naschrift from './components/Naschrift.vue'
+import TestComponent from './components/TestComponent.vue'
+
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    HeaderIntro,
+    MainHeader,
     StamboomLijst,
-    Naschrift
+    Naschrift,
+    TestComponent
   }
 }
 </script>

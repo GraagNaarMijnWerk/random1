@@ -5,8 +5,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css' //--CSS PORTION. no .use
 
 import App from './App.vue'
 
-Vue.use(BootstrapVue, IconsPlugin) // Install BootstrapVue --JAVASCRIPT PORTION
-
+Vue.use(BootstrapVue) // Install BootstrapVue --JAVASCRIPT PORTION
+Vue.use(IconsPlugin) // Install BootstrapVue --JAVASCRIPT PORTION
 
 
 Vue.config.productionTip = false
